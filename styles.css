@@ -8,6 +8,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0 15px;
     background-color: rgba(34, 55, 100, 0.993);
@@ -21,9 +22,9 @@ ul {
     list-style-type: none;
     display: inline-flex;
     margin-left: auto;
-    align-items: center;
-    justify-self: space-between;
+    justify-content: space-between;
     font-size: 15px;
+    gap: 15px;
 
 }
 
