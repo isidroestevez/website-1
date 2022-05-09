@@ -9,6 +9,12 @@ nav {
     flex-direction: row;
     justify-content: center;
     margin: 0;
+    background-color: darkslategrey;
+}
+
+.header-title {
+    color: white;
+    margin: 15px;
 }
 
 ul {
@@ -18,4 +24,17 @@ ul {
     align-content: center;
     gap: 15px;
 
+}
+
+a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+a:hover {
+    color: azure;
+}
+
+a:active {
+    background-color: brown;
 }
