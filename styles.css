@@ -60,11 +60,20 @@ button {
     background-color: rgb(0, 134, 223);
     text-align: center;
     color: white;
-    padding: 10px 30px;
+    padding: 8px 20px;
     font-family: serif;
     font-size: 30px;
     font-style: italic;
+    border-radius: 15px;
+    border: none;
 }
+
+button:hover {
+    background-color: green;
+    transition: 0.5s;
+
+}
+
 
 .first-flex {
     background-color: rgba(34, 55, 100, 0.993);
@@ -74,7 +83,8 @@ button {
 }
 
 .first {
-
+    display: flex;
+    flex: stretch;
 }
 
 .second {
