@@ -76,6 +76,7 @@ a:active {
     width: 800px;
     padding: 15px;
     gap: 15px;
+    margin: auto;
     background-color: white;
 }
 
@@ -84,13 +85,29 @@ a:active {
     flex: 1;
     flex-direction: column;
     align-items: center;
-
 }
 
 .second-squares {
     display: flex;
+    flex: 1;
+    flex-direction: row;
     gap: 15px;
-} 
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    border-color: blue;
+    background-color: rgb(68, 141, 170);
+    border-radius: 8px;
+}
+
+.second-text {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
 
 .third {
     background-color: rgba(34, 55, 100, 0.993);
