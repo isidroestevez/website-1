@@ -124,6 +124,31 @@ a:active {
 
 .fourth {
     background-color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.fourth-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 -1 0%;
+    height: 100px;
+    width: 500px;
+    background-color: rgb(34, 141, 212);
+    padding: 20px;
+    gap: 35px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.fourth-box button {
+    margin-left: auto;
+    height: 50px;
+    background-color: rgba(34, 55, 100, 0.993);
 }
 
 .footer {
@@ -154,6 +179,10 @@ a:active {
 
 .third h3 {
     text-align: right;
+    color: white;
+}
+
+.fourth-text {
     color: white;
 }
 
