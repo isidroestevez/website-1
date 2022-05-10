@@ -139,7 +139,7 @@ a:active {
     height: 100px;
     width: 500px;
     background-color: rgb(34, 141, 212);
-    padding: 20px;
+    padding: 30px;
     gap: 35px;
     align-items: center;
     border-radius: 8px;
@@ -152,9 +152,20 @@ a:active {
 }
 
 .footer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(116, 116, 116, 0.993);
 }
 
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    height: 100px;
+}
 
 /*-----main content font/buttons-----*/
 
@@ -172,9 +183,11 @@ a:active {
 }
 
 .third p {
+    font-family: 'Times New Roman', Times, serif;
     width: 500px;
     text-align: left;
     color: white;
+    font-style: italic;
 }
 
 .third h3 {
@@ -186,7 +199,8 @@ a:active {
     color: white;
 }
 
-.footer p, h1 {
+.footer p {
+    font-size: 12px;
     color: white;
 }
 
